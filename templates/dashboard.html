@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Welcome, {{ student_name }}!</h1>
+        <p>Current Learning Path: {{ learning_path }}</p>
+        <p>Interests:</p>
+        <ul>
+            {% for interest in interests %}
+                <li>{{ interest }}</li>
+            {% endfor %}
+        </ul>
+        <a href="/feedback">Submit Feedback</a>
+    </div>
+</body>
+</html>

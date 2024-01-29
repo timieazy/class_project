@@ -1,0 +1,2 @@
+so as instructed i installed gunicorn using "pip install Flask gunicorn"
+am new to gunicorn, so decided to make some research and play with it for a bit to get a hang of it.
