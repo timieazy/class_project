@@ -1,2 +1,16 @@
+Day 1 (28-01-2024)
 so as instructed i installed gunicorn using "pip install Flask gunicorn"
 am new to gunicorn, so decided to make some research and play with it for a bit to get a hang of it.
+gunicorn- so i decided to just go ahead and input gunicorn and see what happens result... worker failed to boot.
+gunicorn is seeming a bit complex...i'll continue in the morning
+
+Day 2 (30-01-2024)
+I proceed from last error...running gunicorn
+this time around i seek the assistance of chatgpt "how to setup gunicorn for a Flask project"
+i go a command "gunicorn -w 2 -b 127.0.0.1:5000 app:app"
+-w = worker
+-b= specified ip address and port
+app:app=location of app.play, more like module_name:app_instance
+
+honestly i still have no clue to what i am do at the moment 
+but decided to forge ahead hopefully the answers would come.
