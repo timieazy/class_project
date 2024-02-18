@@ -14,3 +14,13 @@ app:app=location of app.play, more like module_name:app_instance
 
 honestly i still have no clue to what i am do at the moment 
 but decided to forge ahead hopefully the answers would come.
+
+Day 4 (2-2-2024)
+After successfully completing the application desided to add some extras but many failed, want to enable mailling 
+features, i noticed i dont always like sticking buy the book,in the case my actions were not need and 
+unneccessary. Now am starting again
+
+Day 5 (18-2-2024)
+After give up on DevOps because everything became overwhelming decided to resume again, got to learn more about
+gunicorn binding ip "-b", discovered i can specify any ip of my choice "gunicorn -w 1 -b 127.0.0.2:5000 app:app"
+attempting git actions again
